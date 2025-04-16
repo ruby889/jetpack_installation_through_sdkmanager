@@ -21,8 +21,14 @@ The module is enabled if `sudo modprobe` with no error shown.
          }
       },
       "default-runtime": "nvidia",
-      "data-root": "/ssd/docker",
+      "data-root": "/ssd/docker"
    }
+   ```
+* Restart docker for the configuration file to take effect.
+   ```
+   sudo systemctl start docker
+   sudo systemctl daemon-reload
+   sudo systemctl restart docker
    ```
 6. Install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#aws-graviton2-arm-64) 
 * Set install location to "/ssd/miniconda3"
