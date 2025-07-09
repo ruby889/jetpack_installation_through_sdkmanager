@@ -1,6 +1,6 @@
 ## Enable kernel modules without reflash the system
 1. Download `Driver Package (BSP) Sources` from [here](https://developer.nvidia.com/embedded/jetson-linux-r3643).  
-2. For rt_kernel, enable the real-time configuration as shown [here](https://docs.nvidia.com/jetson/archives/r36.4/DeveloperGuide/SD/Kernel/KernelCustomization.html#building-the-jetson-linux-kernel).  
+2. For rt_kernel, enable the real-time configuration as shown [here](https://docs.nvidia.com/jetson/archives/r36.4.3/DeveloperGuide/SD/Kernel/KernelCustomization.html#building-the-jetson-linux-kernel).  
 3. Follow steps from [here](https://forums.developer.nvidia.com/t/no-ttyusb-ttyacm-shown-after-installed-jetpack6-0/299191/13).  
 *  ch341 module is needed for RS485  (Linux_for_Tegra/source/kernel/kernel-jammy-src/drivers/usb/serial/ch341.ko)
 *  gs_usb module is needed for canable (Linux_for_Tegra/source/kernel/kernel-jammy-src/drivers/net/can/usb/gs_usb.ko)
