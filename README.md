@@ -7,6 +7,8 @@
 ### Verify if the module is enabled
 The module is enabled if `sudo modprobe` with no error shown.
    e.g. `sudo modprobe gs_usb`
+### Alternative tutorial
+* JetsonHacks - [Build Jetson Orin Kernel and Modules](https://jetsonhacks.com/2025/03/13/build-jetson-orin-kernel-and-modules/)
 
 ## Installation list for new Jetson  
 1. Install Jetpack6.2  
